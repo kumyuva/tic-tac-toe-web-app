@@ -42,9 +42,9 @@ h1 {
 #reset-btn {
     padding: 1rem;
     background-color: bisque;
-    font-size: 1.10rem;
+    font-size: 1.25rem;
     color: black;
-    border-radius: 1vmin;
+    border-radius: 1rem;
     border: none;
 }
 #new-btn {
@@ -57,7 +57,7 @@ h1 {
 }
 #msg {
     color: #D20062;
-    font-size: 6vmin;
+    font-size: 5vmin;
 }
 .msg-container {
     height: 100vmin;

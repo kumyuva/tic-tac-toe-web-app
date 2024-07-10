@@ -41,7 +41,7 @@ boxes.forEach((box) => {
 
         let isWinner = checkWinner();
 
-        if (count ==9 && !iswinner){
+        if (count ==9 && !isWinner){
             gameDraw();
         }
     });
@@ -67,7 +67,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-    msg.innerText = `Congratulations, Winner is ${winner}`;
+    msg.innerText = `Congratulations, Winner is ${winner} 🎉🎊`; //add emojis
     msgContainer.classList.remove("hide");
     disableBoxes();
 };
